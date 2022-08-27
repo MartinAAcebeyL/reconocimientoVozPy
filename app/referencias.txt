@@ -1,3 +1,7 @@
 https://realpython.com/python-speech-recognition/
 
 https://es.acervolima.com/asistente-de-voz-usando-python/
+
+
+--para mas audios
+http://www.voiptroubleshooter.com/open_speech/index.html
