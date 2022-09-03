@@ -1,6 +1,4 @@
-from operator import truediv
 from speech_recognition import AudioFile, Recognizer
-import webbrowser as wb
 
 from utils import *
 

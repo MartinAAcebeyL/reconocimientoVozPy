@@ -1,6 +1,3 @@
-from math import fabs
-
-
 def get_audio_to_text(reconocedor, audio, show_all = False):
     return reconocedor.recognize_google(audio, language = 'en-IN', show_all = show_all)
 
@@ -25,3 +22,12 @@ def get_noise_audio(reconocedor, audiofile,captura_inicio= False, captura_fin = 
             audio = reconocedor.record(source)
     
     return audio
+
+#para microfono
+ 
+def to_text(microfono, reconocedor):
+    with microfono as source:
+        reconocedor.adjust_for_ambient_noise(source)
+        audio = reconocedor.listen(source)
+    texto = reconocedor.recognize_google(audio)
+    return texto
