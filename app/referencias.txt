@@ -5,3 +5,6 @@ https://es.acervolima.com/asistente-de-voz-usando-python/
 
 --para mas audios
 http://www.voiptroubleshooter.com/open_speech/index.html
+
+--para cambiar el idioma
+https://stackoverflow.com/questions/14257598/what-are-language-codes-in-chromes-implementation-of-the-html5-speech-recogniti
