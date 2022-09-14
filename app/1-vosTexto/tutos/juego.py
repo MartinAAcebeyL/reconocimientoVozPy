@@ -1,6 +1,7 @@
+# https://realpython.com/python-speech-recognition/
+
 import random
 import time
-
 import speech_recognition as sr
 
 

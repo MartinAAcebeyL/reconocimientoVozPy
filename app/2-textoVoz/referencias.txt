@@ -1,0 +1,2 @@
+https://pypi.org/project/pyttsx3/
+https://pyttsx3.readthedocs.io/en/latest/engine.html
